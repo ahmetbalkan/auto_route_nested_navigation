@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Hexaf\Desktop\auto_route_nested_navigation\build\windows\CMakeFiles\6218f4890cdf39de8b931615971279e9\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6086A39F-00D8-31EB-8303-EE0743F10855}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+^C:\USERS\HEXAF\DESKTOP\AUTO_ROUTE_NESTED_NAVIGATION\BUILD\WINDOWS\CMAKEFILES\3D25FFC32C2AF87C0AD0D76A1869A188\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\Users\Hexaf\Desktop\auto_route_nested_navigation FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\Hexaf\Desktop\auto_route_nested_navigation\windows\flutter\ephemeral PROJECT_DIR=C:\Users\Hexaf\Desktop\auto_route_nested_navigation FLUTTER_TARGET=C:\Users\Hexaf\Desktop\auto_route_nested_navigation\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC8wNTQ1Zjg3MDVkZjMwMTg3N2Q3ODcxMDdiYWMxYTZlOWZjOWVlMWFkLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\Hexaf\Desktop\auto_route_nested_navigation\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HEXAF\DESKTOP\AUTO_ROUTE_NESTED_NAVIGATION\BUILD\WINDOWS\CMAKEFILES\808DF723D4B8B198CDAA3DB2A3A0EA5A\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HEXAF\DESKTOP\AUTO_ROUTE_NESTED_NAVIGATION\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Hexaf/Desktop/auto_route_nested_navigation/windows -BC:/Users/Hexaf/Desktop/auto_route_nested_navigation/build/windows --check-stamp-file C:/Users/Hexaf/Desktop/auto_route_nested_navigation/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\HEXAF\DESKTOP\AUTO_ROUTE_NESTED_NAVIGATION\BUILD\WINDOWS\CMAKEFILES\6218F4890CDF39DE8B931615971279E9\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
